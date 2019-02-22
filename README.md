@@ -1,5 +1,11 @@
-# Running a ROS Program Running Quickly
-A description of how to quickly run a ROS program on Rock64 OS install.
+# Docker and ROS on Embedded Linux (Ubuntu in this case)
+A description of how to quickly run a ROS program on embeded Linux install (in this case, Rock64). Everything besides the first line also 
+applies to Debian or Raspbian on a RPi3.
+
+Note this example shows how build your Docker container image on the device. Much more convenient, although more complicated methods (to explain) are 
+to cross-compile the ARM Docker image on x86 using QEMU, push to registry, then download on device. This allows for seamless Over-the-Air updates to your device. **It can save a lot of time.** You can also use a RPi linked up to a CI/CD service like Gitlab or CI/CD to automatically build the ARM images instead of cross-compiling.
+
+# Steps
 
 Repositories setup as-is have some changes that need to be explicity accepted:
 
