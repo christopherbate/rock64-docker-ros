@@ -2,12 +2,16 @@
 A description of how to quickly run a ROS program on Rock64 OS install.
 
 1. Repositories setup as-is have some changes that need to be explicity accepted:
-> `sudo apt-get --allow-releaseinfo-change update`
+
+`sudo apt-get --allow-releaseinfo-change update`
 
 2. Install docker
-> `curl -fsSL https://get.docker.com -o get-docker.sh`
-> `sudo sh get-docker.sh`
-> ` sudo usermod -aG docker rock64`
+`curl -fsSL https://get.docker.com -o get-docker.sh
+
+ `sudo sh get-docker.sh`
+ 
+ ` sudo usermod -aG docker rock64`
+ 
 3. Logout and log back in
 4. Test docker
 > `docker run hello-world`
