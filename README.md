@@ -26,7 +26,7 @@ SCP/Clone your package
 Build and run (see below)
 
 # Building and Running a ROS package.
-ROS provides (a comprehensive set of Docker Images)[ https://hub.docker.com/_/ros ].
+ROS provides a comprehensive set of Docker Images): https://hub.docker.com/_/ros.
 
 You can use these images directly or build your own image. If you have dependencies, you will need to build your own base image.
 
