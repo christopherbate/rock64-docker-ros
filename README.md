@@ -7,7 +7,7 @@ A description of how to quickly run a ROS program on Rock64 OS install.
 
 2. Install docker
 
-`curl -fsSL https://get.docker.com -o get-docker.sh
+`curl -fsSL https://get.docker.com -o get-docker.sh`
 `sudo sh get-docker.sh` 
 `sudo usermod -aG docker rock64`
  
