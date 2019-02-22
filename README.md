@@ -45,5 +45,7 @@ On Device:
 ### Example using ros-melodic-core as a base image
 In the repository I've included a couple files that demonstrate how to use the ros-melodic core as a base image for adding additional dependencies, and directly copying the source code into the image. The ROS Docker page also has more examples.
 
+The ros-entrypoint.sh file is copied into the image and provides a convenient way to source your development file before the main command is executed.
+
 ### Mapping in device files to runnining container.
 Use the device option: `docker run --device /dev/asdf ...` 
