@@ -6,17 +6,16 @@ A description of how to quickly run a ROS program on Rock64 OS install.
 `sudo apt-get --allow-releaseinfo-change update`
 
 2. Install docker
-`curl -fsSL https://get.docker.com -o get-docker.sh
 
- `sudo sh get-docker.sh`
- 
- ` sudo usermod -aG docker rock64`
+`curl -fsSL https://get.docker.com -o get-docker.sh
+`sudo sh get-docker.sh` 
+`sudo usermod -aG docker rock64`
  
 3. Logout and log back in
 4. Test docker
-> `docker run hello-world`
+`docker run hello-world`
 5. Grab ROS image
-> `docker pull ros:melodic-ros-core`
+`docker pull ros:melodic-ros-core`
 6. SCP/Clone your package
 7. Build and run (see below)
 
